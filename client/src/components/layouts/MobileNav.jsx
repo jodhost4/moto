@@ -1,5 +1,5 @@
 import { NavLink, useLocation } from 'react-router-dom';
-import { LayoutDashboard, Bike, Calendar, Clock, User } from 'lucide-react';
+import { LayoutDashboard, Bike, Calendar, Clock, User, Palette } from 'lucide-react';
 import { cn } from '../../utils/helpers';
 
 const items = [
@@ -7,6 +7,7 @@ const items = [
   { to: '/services', icon: Bike, label: 'Services' },
   { to: '/book-service', icon: Calendar, label: 'Book' },
   { to: '/my-bookings', icon: Clock, label: 'Bookings' },
+  { to: '/customization', icon: Palette, label: 'Customize' },
   { to: '/profile', icon: User, label: 'Profile' },
 ];
 
